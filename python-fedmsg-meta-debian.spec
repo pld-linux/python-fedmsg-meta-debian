@@ -13,8 +13,8 @@ Source0:	http://pypi.python.org/packages/source/f/%{module}/%{module}-%{version}
 # Source0-md5:	39bd5042627aff42b4f17cb8fa8c10ec
 URL:		http://pypi.python.org/pypi/fedmsg_meta_debian
 BuildRequires:	fedmsg >= 0.6.1
-BuildRequires:	python-devel
 BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 Requires:	fedmsg >= 0.6.1
 #Requires:	python-fedora
 BuildArch:	noarch
