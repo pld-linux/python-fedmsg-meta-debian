@@ -12,6 +12,7 @@ Group:		Libraries/Python
 Source0:	http://pypi.python.org/packages/source/f/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	39bd5042627aff42b4f17cb8fa8c10ec
 URL:		http://pypi.python.org/pypi/fedmsg_meta_debian
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	fedmsg >= 0.6.1
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
